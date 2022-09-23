@@ -1,11 +1,10 @@
 blueprint:
-  name: Zooz Zen21 Template
-  description: Create automations for Zooz Zen Switches using scenes
-  source_url: https://github.com/willheineman/homeassistant/blob/main/components/automation/blueprints/zooz_zen_blueprint_template.yaml
+  name: Zooz Zen76 Template
+  description: Create automations for Zooz Zen76 Switches using scenes
   domain: automation
   input:
     zooz_switch:
-      name: Zooz Zen Switch
+      name: Zooz Zen76 Switch
       description: "List of available zwave devices. Please select the zooz 
       Zen switch that you would like to configure."
       selector:
